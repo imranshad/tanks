@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="btnLeft">LEFT</string>
+    <string name="btnUp">UP</string>
+    <string name="btnFire">FIRE</string>
+    <string name="btnRight">RIGHT</string>
+    <string name="btnDown">DOWN</string>
+    <string name="newGame">Новая игра</string>
+</resources>

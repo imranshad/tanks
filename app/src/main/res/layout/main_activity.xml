@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shaurun.myapplication.AndroidMainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/view" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:baselineAligned="false"
+        android:background="#2c2727">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/btnLeft"
+                android:id="@+id/btnLeft"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="#FF94D425"
+                android:textSize="@dimen/abc_text_size_headline_material"
+                android:longClickable="true" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/btnUp"
+                android:id="@+id/btnUp"
+                android:layout_weight="1"
+                android:background="#FF94D425"
+                android:textSize="@dimen/abc_text_size_headline_material"
+                android:longClickable="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/btnFire"
+                android:id="@+id/btnFire"
+                android:layout_weight="1"
+                android:background="#ed7c02"
+                android:textSize="@dimen/abc_text_size_headline_material"
+                android:longClickable="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/btnDown"
+                android:id="@+id/btnDown"
+                android:layout_weight="1"
+                android:background="#FF94D425"
+                android:textSize="@dimen/abc_text_size_headline_material"
+                android:longClickable="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/btnRight"
+                android:id="@+id/btnRight"
+                android:layout_weight="1"
+                android:background="#94d425"
+                android:elegantTextHeight="false"
+                android:textSize="@dimen/abc_text_size_headline_material"
+                android:longClickable="true" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
